@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Urbanist:wght@100&display=swap'); 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: inter;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #5350F6 2.42%, #E662FE 104.13%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Urbanist;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .getstarted {
+    display: flex;
+    background-clip: text;
+    background-color: #4F4CE5;
+    padding: 16px 0px;
+    border-radius: 50px;
+  }
+
+  .title {
+    background: black;
+    text-align: center;
+
+    align-self: stretch;
+    line-height: 24px;
+    color: #FF3BFF;
+    padding-top: 30px;
+    font-family: Urbanist;
+  }
+
+  h1 {
+    background: linear-gradient(90deg, #5350F6 24.42%, #E662FE 73.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 88px;
+  }
+
+  .branding {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    gap: 150px;
+    padding: 80px 0px;
+  }
+
+  h2 {
+    background: linear-gradient(90deg, #5350F6 24.42%, #E662FE 73.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 88px;
+  }
+  
+  h3 {
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .titlecopy {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 500px;
+    height: 400px;
+    padding: 150px 32px;
+    font-size: 16px;
+    align-self: stretch;
+    float: left;
+  }
+  .titlecopybox {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 500px;
+    height: 400px;
+    padding: 150px 32px;
+    font-size: 16px;
+    float: right;
+  }
+
+  .balls {
+    width: 685.174px;
+    height: 621.581px;
+  }
+
